@@ -1,0 +1,107 @@
+/* Styles go here */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #52717f;
+  text-align: left;
+  background-color: #245b80;
+}
+.navbar_center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: bold;
+  color: Thistle;
+}
+
+.title_up_1 {
+  background-color: lightcyan;
+  color: black;
+  font-size: 20px;
+}
+
+.title_up_2 {
+  background-color: Thistle;
+  color: black;
+  font-size: 20px;
+}
+
+.btn {
+  background-color: DodgerBlue; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btn_increase {
+  background-color: #4caf50;
+  color: white;
+}
+.btn_increase:hover {
+  background-color: palegreen;
+  color: black;
+}
+
+.btn_decrease {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn_decrease:hover {
+  background-color: HotPink;
+  color: black;
+}
+
+.btn_sellbuy {
+  padding: 15px 230px;
+  background-color: dodgerblue;
+  color: white;
+}
+
+.btn_sellbuy:hover {
+  background-color: skyblue;
+  color: black;
+}
+
+.btn_stake {
+  background-color: orange;
+  color: white;
+}
+.btn_stake span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn_stake span:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn_stake:hover span {
+  padding-right: 25px;
+  color: black;
+}
+
+.btn_stake:hover span:after {
+  opacity: 1;
+  right: 0;
+}
