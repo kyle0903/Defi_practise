@@ -1,0 +1,9 @@
+# Defi模擬穩定幣的兌換
+# 程式語言與工具：  
+1. 程式語言：Solidity、Javascript、HTML、CSS
+2. 前端框架：ReactJS
+3. 以太坊環境：Web3.js、Ganache、Metamask
+5. 版本控制：Git
+# 系統功能：
+1. 發布NTUB幣
+2. 模擬兌換穩定幣(用NTUB幣兌換自行發布的穩定幣)
